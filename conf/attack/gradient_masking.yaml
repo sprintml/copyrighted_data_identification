@@ -1,0 +1,9 @@
+name: gradient_masking
+timesteps: 0,100,200,300,400,500,600,700,800,900
+masking_ratio: 0.2
+members_lower: false
+
+clf: lr
+kwargs: 
+  max_iter: 1000
+  n_jobs: -1

@@ -1,0 +1,4 @@
+name: denoising_loss
+timestep: 100
+n_repetitions: 5
+members_lower: true

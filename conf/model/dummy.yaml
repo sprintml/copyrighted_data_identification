@@ -1,0 +1,6 @@
+name: dummy
+model_cfg_path: None 
+dataloader: cifar10
+dataset_path: /tmp/data/cifar10
+image_size: 32
+batch_size: 256

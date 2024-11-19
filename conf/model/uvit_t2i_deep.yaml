@@ -1,0 +1,8 @@
+name: uvit_t2i_deep
+vae_model: ./model_checkpoints/uvit_t2i/autoencoder_kl.pth
+diffuser_model: ./model_checkpoints/uvit_t2i/mscoco_uvit_small_deep.pth
+depth: 16
+dataloader: coco_uvit
+image_size: 256
+dataset_path: coco/
+batch_size: 128

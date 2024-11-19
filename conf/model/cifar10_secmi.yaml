@@ -1,0 +1,8 @@
+name: cifar10_secmi
+diffuser_model: ./model_checkpoints/secmi/CIFAR10/checkpoint.pt
+model_cfg_path: ./model_checkpoints/secmi/CIFAR10/flagfile.txt
+dataloader: cifar10_secmi
+dataset_path: /tmp/data/cifar10
+split_path: ./model_checkpoints/secmi/CIFAR10/CIFAR10_train_ratio0.5.npz
+batch_size: 128
+image_size: 32

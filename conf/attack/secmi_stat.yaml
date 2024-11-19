@@ -1,0 +1,6 @@
+name: secmi_stat
+members_lower: true
+
+t0: 0
+t: 100
+step: 10

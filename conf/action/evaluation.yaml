@@ -1,0 +1,3 @@
+name: evaluation
+score: tpr@fpr # tpr@fpr | p_value
+device: cpu

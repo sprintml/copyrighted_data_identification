@@ -1,0 +1,4 @@
+name: evaluation_bulk
+attacks: denoising_loss,secmi_stat,pia,pian,gradient_masking,multiple_loss,cdi
+models: ldm,uvit,dit
+device: cpu

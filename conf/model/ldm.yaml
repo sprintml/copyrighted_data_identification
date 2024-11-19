@@ -1,0 +1,6 @@
+name: ldm
+model_cfg_path: conf/submodules/cin-ldm-vq-f8.yaml
+dataloader: imagenet_compvis
+image_size: 256
+dataset_path: imagenet
+batch_size: 128

@@ -1,0 +1,2 @@
+name: scores_computation
+device: cuda:0

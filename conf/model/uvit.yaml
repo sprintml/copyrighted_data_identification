@@ -1,0 +1,7 @@
+name: uvit
+vae_model: ./model_checkpoints/uvit/autoencoder_kl_ema.pth
+diffuser_model: ./model_checkpoints/uvit/imagenet256_uvit_huge.pth
+dataloader: imagenet_uvit
+image_size: 256
+dataset_path: imagenet
+batch_size: 128

@@ -1,0 +1,9 @@
+name: noise_optim
+timestep: 100
+members_lower: false
+max_iter: 5
+
+clf: lr
+kwargs: 
+  max_iter: 1000
+  n_jobs: -1

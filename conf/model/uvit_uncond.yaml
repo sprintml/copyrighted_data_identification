@@ -1,0 +1,8 @@
+name: uvit_uncond
+vae_model: ./model_checkpoints/uvit_t2i/autoencoder_kl.pth
+diffuser_model: ./model_checkpoints/uvit_uncond/ckpts/1000000.ckpt/nnet_ema.pth
+depth: 12
+dataloader: coco_uvit
+image_size: 256
+dataset_path: coco/
+batch_size: 128

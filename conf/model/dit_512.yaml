@@ -1,0 +1,7 @@
+name: dit_512
+vae_model: stabilityai/sd-vae-ft-mse
+diffuser_model: ./model_checkpoints/dit/DiT-XL-2-512x512.pt
+dataloader: imagenet_dit
+image_size: 512
+dataset_path: imagenet
+batch_size: 32
