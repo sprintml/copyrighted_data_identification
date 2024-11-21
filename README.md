@@ -1,5 +1,8 @@
 # CDI: Copyrighted Data Identification in Diffusion Models
 
+Official implementation of *CDI: Copyrighted Data Identification in Diffusion Models*
+https://arxiv.org/abs/2411.12858
+
 ### Keywords
  
 dataset inference, diffusion models, copyright, intellectual property, membership inference
@@ -133,3 +136,18 @@ Next, we're good to go to run scripts that evaluate CDI from various of perspect
 ### Comparing CDI and MIAs on Dataset Inference, additional evaluation
 
 First run `experiments\mia_di.py` than `experiments\di_roc.py`to obtain ROC curves for CDI and for MIAs evaluated on DI task (Figures 9 and 16).
+
+## Citation
+
+If you use our work, please cite it as:
+
+```bibtex
+@misc{dubiski2024cdi,
+    title={CDI: Copyrighted Data Identification in Diffusion Models},
+    author={Jan Dubiński and Antoni Kowalczuk and Franziska Boenisch and Adam Dziedzic},
+    year={2024},
+    eprint={2411.12858},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
